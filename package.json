@@ -1,0 +1,50 @@
+{
+  "name": "react-template",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check-updates": "npx npm-check-updates -u",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@storybook/addon-essentials": "^7.0.4",
+    "@storybook/addon-interactions": "^7.0.4",
+    "@storybook/addon-links": "^7.0.4",
+    "@storybook/blocks": "^7.0.4",
+    "@storybook/react": "^7.0.4",
+    "@storybook/react-vite": "^7.0.4",
+    "@storybook/testing-library": "^0.1.0",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitejs/plugin-react-swc": "^3.3.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-storybook": "^0.6.11",
+    "husky": "^8.0.3",
+    "prettier": "2.8.7",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.4",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-checker": "^0.5.6",
+    "vite-tsconfig-paths": "^4.2.0"
+  }
+}
